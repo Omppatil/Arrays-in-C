@@ -10,3 +10,5 @@ int main(void) {
   }
   return 0;
 }
+
+//int arr[2][3][4]; multi d array declaration
