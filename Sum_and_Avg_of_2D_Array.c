@@ -5,9 +5,11 @@ int sum(int arr[][3], int rows, int cols);
 int main(void) {
   int arr[3][3] = {{1, 2, 3}, {4, 5, 6}, {1, 2, 3}};
 
-  printf("Welcome to Sum of elements in array.\n");
+  printf("Welcome to Sum and Average of elements in array.\n");
   int Add = sum(arr, 3, 3);
-  printf("Sum of all the elements: %d", Add);
+  printf("\nSum of all the elements: %d", Add);
+  float Avg = Add / 9.0;
+  printf("\nAverage of all the elements: %.2f", Avg);
 }
 
 int sum(int arr[][3], int rows, int cols) {
