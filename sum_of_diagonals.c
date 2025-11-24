@@ -28,6 +28,6 @@ void print_diagonal_sum(int arr[][SIZE]) {
     int index = SIZE / 2;
     total_ds -= arr[index][index];
   }
-  printf("Sum of all diagonal elemnts except center diagonal element: %d\n", total_ds);
+  printf("Sum of all diagonal elemnts except center element: %d\n", total_ds);
 
 }
