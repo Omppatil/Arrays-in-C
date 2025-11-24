@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-const int SIZE = 3;
+const int SIZE = 4;
 void print_diagonal_sum(int arr[][SIZE]);
 int main(void) {
   printf("Welcome to sum of diagonals in 2D arrays.\n");
-  int arr1[3][3] = {{1, 2, 3}, {4, 5, 6}, {8, 9, 10}};
-  //char arr1[4][4] = {{0, 1, 2, 3}, {1, 2, 3, 4}, {4, 5, 6, 7}, {8, 9, 10, 11}};
+  //int arr1[3][3] = {{1, 2, 3}, {4, 5, 6}, {8, 9, 10}};
+  int arr1[4][4] = {{0, 1, 2, 3}, {1, 2, 3, 4}, {4, 5, 6, 7}, {8, 9, 10, 11}};
 
   print_diagonal_sum(arr1);
   return 0;
